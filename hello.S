@@ -1,3 +1,10 @@
+; cara assembling dan jalankan
+; aarch64-linux-gnu-as hello.S -o hello.o
+; aarch64-linux-gnu-ld hello.o -o hello
+
+; intel x86_64 jalan dengan qemu
+; qemu-aarch64 ./hello
+
 .section .data
 
 wello_string:
